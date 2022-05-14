@@ -500,6 +500,21 @@ tasks:
     ref: main
     src: https://github.com/doolyrp/jobs_creator
 
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/mdx-vip
+    ref: main
+    src: https://github.com/doolyrp/mdx-vip
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokBanking
+    ref: main
+    src: https://github.com/doolyrp/okokBanking   
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokChatV2
+    ref: main
+    src: https://github.com/doolyrp/okokChatV2   
+    
   # Clean up
   - action: remove_path
     path: ./tmp
