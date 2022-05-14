@@ -36,63 +36,63 @@ tasks:
     path: ./tmp/files/oxmysql.zip
     url: https://github.com/overextended/oxmysql/releases/download/v2.3.0/oxmysql.zip
   - action: unzip
-    dest: ./resources/[standalone]
+    dest: ./resources/[OffGitHub]/[standalone]
     src: ./tmp/files/oxmysql.zip
 
   - action: download_file
     path: ./tmp/menuv.zip
     url: https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
   - action: unzip
-    dest: ./resources/[standalone]/menuv
+    dest: ./resources/[OffGitHub]/[standalone]/menuv
     src: ./tmp/menuv.zip
 
   - action: download_github
-    dest: ./resources/[standalone]/bob74_ipl
+    dest: ./resources/[OffGitHub]/[standalone]/bob74_ipl
     ref: master
     src: https://github.com/qbcore-framework/bob74_ipl
     
   - action: download_github
-    dest: ./resources/[standalone]/safecracker
+    dest: ./resources/[OffGitHub]/[standalone]/safecracker
     ref: main
     src: https://github.com/qbcore-framework/safecracker
     
   - action: download_github
-    dest: ./resources/[standalone]/screenshot-basic
+    dest: ./resources/[OffGitHub]/[standalone]/screenshot-basic
     ref: master
     src: https://github.com/citizenfx/screenshot-basic
 
   #- action: download_github
-    #dest: ./resources/[standalone]/progressbar
+    #dest: ./resources/[OffGitHub]/[standalone]/progressbar
     #ref: main
     #src: https://github.com/qbcore-framework/progressbar
 
   #- action: download_github
-    #dest: ./resources/[standalone]/interact-sound
+    #dest: ./resources/[OffGitHub]/[standalone]/interact-sound
     #ref: master
     #src: https://github.com/qbcore-framework/interact-sound
     
   - action: download_github
-    dest: ./resources/[standalone]/mhacking
+    dest: ./resources/[OffGitHub]/[standalone]/mhacking
     ref: main
     src: https://github.com/qbcore-framework/mhacking
 
   #- action: download_github
-    #dest: ./resources/[standalone]/connectqueue
+    #dest: ./resources/[OffGitHub]/[standalone]/connectqueue
     #ref: master
     #src: https://github.com/qbcore-framework/connectqueue
 
   #- action: download_github
-    #dest: ./resources/[standalone]/dpemotes
+    #dest: ./resources/[OffGitHub]/[standalone]/dpemotes
     #ref: master
     #src: https://github.com/qbcore-framework/dpemotes
 
   - action: download_github
-    dest: ./resources/[standalone]/PolyZone
+    dest: ./resources/[OffGitHub]/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
     
   #- action: download_github
-    #dest: ./resources/[standalone]/LegacyFuel
+    #dest: ./resources/[OffGitHub]/[standalone]/LegacyFuel
     #ref: master
     #src: https://github.com/qbcore-framework/LegacyFuel
     
