@@ -123,6 +123,11 @@ tasks:
     #ref: main
     #src: https://github.com/qbcore-framework/prison_map
     
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokNotify
+    ref: master
+    src: https://github.com/doolyrp/okokNotify    
+    
   # Downloading QBCore resources
 
 
@@ -470,6 +475,7 @@ tasks:
     src: https://github.com/doolyrp/qb-core
     
 # Paid Scripts
+
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/core_vehicle
     ref: master
