@@ -105,7 +105,7 @@ tasks:
   - action: download_github
     dest: ./resources/[voice]/qb-radio
     ref: main
-    src: https://github.com/qbcore-framework/qb-radio
+    src: https://github.com/doolyrp/qb-radio
     
     # MAPS
   - action: download_github
@@ -132,37 +132,37 @@ tasks:
     src: https://github.com/qbcore-framework/qb-scoreboard
     
   - action: download_github
-    dest: ./resources/[qb]/qb-adminmenu
+    dest: ./resources/[OnGitHub]/[qb]/qb-adminmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-adminmenu
+    src: https://github.com/doolyrp/qb-adminmenu
 
   - action: download_github
-    dest: ./resources/[qb]/qb-multicharacter
+    dest: ./resources/[OnGitHub]/[qb]/qb-multicharacter
     ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
+    src: https://github.com/doolyrp/qb-multicharacter
     
   - action: download_github
-    dest: ./resources/[qb]/qb-target
+    dest: ./resources/[OnGitHub]/[qb]/qb-target
     ref: main
-    src: https://github.com/BerkieBb/qb-target
+    src: https://github.com/doolyrp/qb-target
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-customs
+    dest: ./resources/[OnGitHub]/[qb]/qb-customs
     ref: main
-    src: https://github.com/qbcore-framework/qb-customs
+    src: https://github.com/doolyrp/qb-customs
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehiclesales
+    dest: ./resources/[OnGitHub]/[qb]/qb-vehiclesales
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclesales
+    src: https://github.com/doolyrp/qb-vehiclesales
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehicleshop
+    dest: ./resources/[OnGitHub]/[qb]/qb-vehicleshop
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehicleshop
+    src: https://github.com/doolyrp/qb-vehicleshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
@@ -170,9 +170,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-houserobbery
     
   - action: download_github
-    dest: ./resources/[qb]/qb-prison
+    dest: ./resources/[OnGitHub]/[qb]/qb-prison
     ref: main
-    src: https://github.com/qbcore-framework/qb-prison
+    src: https://github.com/doolyrp/qb-prison
 
   - action: download_github
     dest: ./resources/[qb]/qb-atms
@@ -185,14 +185,14 @@ tasks:
     src: https://github.com/qbcore-framework/qb-hud
 
   - action: download_github
-    dest: ./resources/[qb]/qb-management
+    dest: ./resources/[OnGitHub]/[qb]/qb-management
     ref: main
-    src: https://github.com/qbcore-framework/qb-management
+    src: https://github.com/doolyrp/qb-management
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weed
+    dest: ./resources/[OnGitHub]/[qb]/qb-weed
     ref: main
-    src: https://github.com/qbcore-framework/qb-weed
+    src: https://github.com/doolyrp/qb-weed
 
   - action: download_github
     dest: ./resources/[qb]/qb-lapraces
@@ -200,37 +200,37 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-inventory
+    dest: ./resources/[OnGitHub]/[qb]/qb-inventory
     ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
+    src: https://github.com/doolyrp/qb-inventory
 
   - action: download_github
-    dest: ./resources/[qb]/qb-houses
+    dest: ./resources/[OnGitHub]/[qb]/qb-houses
     ref: main
-    src: https://github.com/qbcore-framework/qb-houses
+    src: https://github.com/doolyrp/qb-houses
 
   - action: download_github
-    dest: ./resources/[qb]/qb-garages
+    dest: ./resources/[OnGitHub]/[qb]/qb-garages
     ref: main
-    src: https://github.com/qbcore-framework/qb-garages
+    src: https://github.com/doolyrp/qb-garages
 
   - action: download_github
-    dest: ./resources/[qb]/qb-ambulancejob
+    dest: ./resources/[OnGitHub]/[qb]/qb-ambulancejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-ambulancejob
+    src: https://github.com/doolyrp/qb-ambulancejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehiclefailure
+    dest: ./resources/[OnGitHub]/[qb]/qb-vehiclefailure
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclefailure
+    src: https://github.com/doolyrp/qb-vehiclefailure
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-radialmenu
+    dest: ./resources/[OnGitHub]/[qb]/qb-radialmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
+    src: https://github.com/doolyrp/qb-radialmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-crypto
@@ -243,9 +243,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weathersync
 
   - action: download_github
-    dest: ./resources/[qb]/qb-policejob
+    dest: ./resources/[OnGitHub]/[qb]/qb-policejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
+    src: https://github.com/doolyrp/qb-policejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
@@ -258,14 +258,14 @@ tasks:
     src: https://github.com/qbcore-framework/qb-apartments
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehiclekeys
+    dest: ./resources/[OnGitHub]/[qb]/qb-vehiclekeys
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclekeys
+    src: https://github.com/doolyrp/qb-vehiclekeys
 
   - action: download_github
-    dest: ./resources/[qb]/qb-mechanicjob
+    dest: ./resources/[OnGitHub]/[qb]/qb-mechanicjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-mechanicjob
+    src: https://github.com/doolyrp/qb-mechanicjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-phone
@@ -278,14 +278,14 @@ tasks:
     src: https://github.com/qbcore-framework/qb-vineyard
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weapons
+    dest: ./resources/[OnGitHub]/[qb]/qb-weapons
     ref: main
-    src: https://github.com/qbcore-framework/qb-weapons
+    src: https://github.com/doolyrp/qb-weapons
 
   - action: download_github
-    dest: ./resources/[qb]/qb-scrapyard
+    dest: ./resources/[OnGitHub]/[qb]/qb-scrapyard
     ref: main
-    src: https://github.com/qbcore-framework/qb-scrapyard
+    src: https://github.com/doolyrp/qb-scrapyard
 
   - action: download_github
     dest: ./resources/[qb]/qb-tunerchip
@@ -293,9 +293,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-tunerchip
 
   - action: download_github
-    dest: ./resources/[qb]/qb-towjob
+    dest: ./resources/[OnGitHub]/[qb]/qb-towjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-towjob
+    src: https://github.com/doolyrp/qb-towjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-streetraces
@@ -303,14 +303,14 @@ tasks:
     src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-storerobbery
+    dest: ./resources/[OnGitHub]/[qb]/qb-storerobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
+    src: https://github.com/doolyrp/qb-storerobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-spawn
+    dest: ./resources/[OnGitHub]/[qb]/qb-spawn
     ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
+    src: https://github.com/doolyrp/qb-spawn
 
   - action: download_github
     dest: ./resources/[qb]/qb-skillbar
@@ -318,14 +318,14 @@ tasks:
     src: https://github.com/qbcore-framework/qb-skillbar
 
   - action: download_github
-    dest: ./resources/[qb]/qb-smallresources
+    dest: ./resources/[OnGitHub]/[qb]/qb-smallresources
     ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
+    src: https://github.com/doolyrp/qb-smallresources
 
   - action: download_github
-    dest: ./resources/[qb]/qb-recyclejob
+    dest: ./resources/[OnGitHub]/[qb]/qb-recyclejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
+    src: https://github.com/doolyrp/qb-recyclejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-diving
@@ -333,9 +333,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-diving
 
   - action: download_github
-    dest: ./resources/[qb]/qb-cityhall
+    dest: ./resources/[OnGitHub]/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
+    src: https://github.com/doolyrp/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-anticheat
@@ -343,24 +343,24 @@ tasks:
     src: https://github.com/qbcore-framework/qb-anticheat
 
   - action: download_github
-    dest: ./resources/[qb]/qb-truckrobbery
+    dest: ./resources/[OnGitHub]/[qb]/qb-truckrobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-truckrobbery
+    src: https://github.com/doolyrp/qb-truckrobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-pawnshop
+    dest: ./resources/[OnGitHub]/[qb]/qb-pawnshop
     ref: main
-    src: https://github.com/qbcore-framework/qb-pawnshop
+    src: https://github.com/doolyrp/qb-pawnshop
 
   - action: download_github
-    dest: ./resources/[qb]/qb-taxijob
+    dest: ./resources/[OnGitHub]/[qb]/qb-taxijob
     ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
+    src: https://github.com/doolyrp/qb-taxijob
     
   - action: download_github
-    dest: ./resources/[qb]/qb-busjob
+    dest: ./resources/[OnGitHub]/[qb]/qb-busjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-busjob
+    src: https://github.com/doolyrp/qb-busjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-newsjob
@@ -381,9 +381,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-bankrobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-truckerjob
+    dest: ./resources/[OnGitHub]/[qb]/qb-truckerjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-truckerjob
+    src: https://github.com/doolyrp/qb-truckerjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-keyminigame
@@ -411,29 +411,29 @@ tasks:
     src: https://github.com/qbcore-framework/qb-clothing
 
   - action: download_github
-    dest: ./resources/[qb]/qb-hotdogjob
+    dest: ./resources/[OnGitHub]/[qb]/qb-hotdogjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-hotdogjob
+    src: https://github.com/doolyrp/qb-hotdogjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-doorlock
+    dest: ./resources/[OnGitHub]/[qb]/qb-doorlock
     ref: main
-    src: https://github.com/qbcore-framework/qb-doorlock
+    src: https://github.com/doolyrp/qb-doorlock
 
   - action: download_github
-    dest: ./resources/[qb]/qb-garbagejob
+    dest: ./resources/[OnGitHub]/[qb]/qb-garbagejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-garbagejob
+    src: https://github.com/doolyrp/qb-garbagejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-drugs
+    dest: ./resources/[OnGitHub]/[qb]/qb-drugs
     ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
+    src: https://github.com/doolyrp/qb-drugs
 
   - action: download_github
-    dest: ./resources/[qb]/qb-shops
+    dest: ./resources/[OnGitHub]/[qb]/qb-shops
     ref: main
-    src: https://github.com/qbcore-framework/qb-shops
+    src: https://github.com/doolyrp/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -446,9 +446,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-interior
     
   - action: download_github
-    dest: ./resources/[qb]/qb-menu
+    dest: ./resources/[OnGitHub]/[qb]/qb-menu
     ref: main
-    src: https://github.com/qbcore-framework/qb-menu
+    src: https://github.com/doolyrp/qb-menu
     
   - action: download_github
     dest: ./resources/[qb]/qb-input
