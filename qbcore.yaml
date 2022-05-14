@@ -472,57 +472,57 @@ tasks:
 # Paid Scripts
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/core_vehicle
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/core_vehicle
 
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokNotify
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/okokNotify
 
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokReports
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/okokReports
 
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/Skills
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/Skills
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/t1ger_mechanicjob
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/t1ger_mechanicjob
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/jobs_creator
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/jobs_creator
 
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/mdx-vip
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/mdx-vip
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokBanking
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/okokBanking   
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokChatV2
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/okokChatV2
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokContract
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/okokContract  
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokCrafting
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/okokCrafting  
     
   - action: waste_time # prevent github throttling
@@ -530,22 +530,22 @@ tasks:
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/Jakers-BayCity-Bank-Robbery
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/Jakers-BayCity-Bank-Robbery 
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/jim-beanmachine
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/jim-beanmachine 
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/jim-burgershot
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/jim-burgershot    
     
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/jim-catcafe
-    ref: main
+    ref: master
     src: https://github.com/doolyrp/jim-catcafe       
     
   # Clean up
