@@ -489,6 +489,16 @@ tasks:
     dest: ./resources/[OnGitHub]/[paid]/Skills
     ref: main
     src: https://github.com/doolyrp/Skills
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/t1ger_mechanicjob
+    ref: main
+    src: https://github.com/doolyrp/t1ger_mechanicjob
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/jobs_creator
+    ref: main
+    src: https://github.com/doolyrp/jobs_creator
 
   # Clean up
   - action: remove_path
