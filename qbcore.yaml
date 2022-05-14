@@ -513,7 +513,40 @@ tasks:
   - action: download_github
     dest: ./resources/[OnGitHub]/[paid]/okokChatV2
     ref: main
-    src: https://github.com/doolyrp/okokChatV2   
+    src: https://github.com/doolyrp/okokChatV2
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokContract
+    ref: main
+    src: https://github.com/doolyrp/okokContract  
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokCrafting
+    ref: main
+    src: https://github.com/doolyrp/okokCrafting  
+    
+  - action: waste_time # prevent github throttling
+    seconds: 10
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/Jakers-BayCity-Bank-Robbery
+    ref: main
+    src: https://github.com/doolyrp/Jakers-BayCity-Bank-Robbery 
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/jim-beanmachine
+    ref: main
+    src: https://github.com/doolyrp/jim-beanmachine 
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/jim-burgershot
+    ref: main
+    src: https://github.com/doolyrp/jim-burgershot    
+    
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/jim-catcafe
+    ref: main
+    src: https://github.com/doolyrp/jim-catcafe       
     
   # Clean up
   - action: remove_path
