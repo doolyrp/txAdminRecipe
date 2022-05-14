@@ -468,6 +468,27 @@ tasks:
     dest: ./resources/[OnGitHub]/[qb]/qb-core
     ref: main
     src: https://github.com/doolyrp/qb-core
+    
+# Paid Scripts
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/core_vehicle
+    ref: main
+    src: https://github.com/doolyrp/core_vehicle
+
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokNotify
+    ref: main
+    src: https://github.com/doolyrp/okokNotify
+
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/okokReports
+    ref: main
+    src: https://github.com/doolyrp/okokReports
+
+  - action: download_github
+    dest: ./resources/[OnGitHub]/[paid]/Skills
+    ref: main
+    src: https://github.com/doolyrp/Skills
 
   # Clean up
   - action: remove_path
